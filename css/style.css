@@ -32,7 +32,23 @@ header{
 }
 
 #hero{
+	background-image: url("../img/hero.jpg");
+	background-position:center;
+	background-size: cover;
+	padding: 20% 0;
+}
+#hero{
 	text-align: center;
+}
+#hero span{
+	text-align: left;
+	align-content: left;
+}
+
+.btn-primary{
+	background-color: #1379e7;
+	border-radius: 35px;
+	text-align: left;
 }
 .hero1{
 
@@ -141,6 +157,11 @@ h3{
 	letter-spacing: 1px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+#team span h3{
+	font-size: 80px;
+	text-align: center;
+	color: #6d6d6d;
 }
 footer{
 	color:#000000;
